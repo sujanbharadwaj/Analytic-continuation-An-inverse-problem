@@ -16,4 +16,4 @@ Thus, developing stable and accurate continuation techniques is critical.
 Traditional Bayesian Approach (MEM):
 The Maximum Entropy Method (MEM) uses Bayesian inference to determine the most probable spectral function given the data and prior knowledge. A reference PDF is available in the MaxEnt_pdf directory.
 Modern Machine Learning Approach:
-A fully connected neural network (FCNN) trained on a large, synthetic dataset is used to learn the mapping from imaginary- to real-frequency data. (Code will be uploaded soon).
+A set of deep learning algorithms trained on large, synthetic datasets are used to learn the complex mapping from imaginary- to real-frequency data. (Code will be uploaded soon.)
