@@ -13,7 +13,10 @@ Thus, developing stable and accurate continuation techniques is critical.
 
 
 ## Approaches
-Traditional Bayesian Approach (MEM):
-The Maximum Entropy Method (MEM) uses Bayesian inference to determine the most probable spectral function given the data and prior knowledge. A reference PDF is available in the MaxEnt_pdf directory.
-Modern Machine Learning Approach:
-A set of deep learning algorithms trained on large, synthetic datasets are used to learn the complex mapping from imaginary- to real-frequency data. (Code will be uploaded soon.)
+### Traditional Bayesian Approach (MEM):
+The Maximum Entropy Method (MEM) uses Bayesian inference to determine the most probable spectral function given the data and prior knowledge. All relevant details of MEM are provided in the reference PDF, which is available in the MaxEnt_pdf directory.
+
+### Modern Machine Learning Approach:
+This project showcases a "separator" autoencoder architecture built with TensorFlow and Keras. Instead of learning a compressed representation, the encoder is trained to separate the input signal into its two constituent parts: the clean Green's function and the random noise.
+
+The model's effectiveness is evaluated by comparing the denoised Green's function against the ground-truth clean signal, demonstrating a significant reduction in noise.
